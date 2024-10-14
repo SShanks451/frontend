@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      /* selects all instances of <p> tag */
+      p {
+        background-color: #cecaca;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 100px;
+        float: left;
+      }
+
+      .smallcities {
+        clear: left;
+        height: 300px;
+      }
+
+      .largecities {
+        height: 300px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="largecities">
+      <p class="city usa">New York</p>
+      <p class="city usa" id="boston">Boston</p>
+      <p class="city india">New Delhi</p>
+      <p class="city india">Goa</p>
+    </div>
+    <div class="smallcitites" id="smaller">
+      <p class="city usa">Anchorage</p>
+      <p class="city usa">Boulder</p>
+      <p class="city india">Vijayawada</p>
+      <p class="city india">Pune</p>
+    </div>
+
+    <p>other para</p>
+  </body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="jquery-3.3.1.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <style>
+      .class1 {
+        color: red;
+      }
+    </style>
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <p class="class1">user defined</p>
+      <p class="text-primary">primary</p>
+      <p class="text-success">success</p>
+      <p class="text-info">info</p>
+      <p class="text-light bg-dark">light</p>
+      <p class="bg-danger">danger</p>
+      <h1 class="display-1">heading 1</h1>
+      <h1 class="display-4">heading 4</h1>
+      <p class="bg-success text-light text-left">para 1</p>
+      <p class="bg-success text-light text-right">para 2</p>
+      <p class="bg-success text-light text-center">para 3</p>
+      <p class="font-weight-bold">Bold</p>
+      <p class="font-italic">Italic</p>
+      <p class="lead">
+        In over 3 years of working on backend systems, I’ve encountered a lot of challenges and rewarding experiences. Here are 3 key lessons that
+        have shaped me as a developer:
+      </p>
+      <div class="row">
+        <div class="col-4 bg-primary">div1</div>
+        <div class="col-4 bg-success">div2</div>
+        <div class="col-4 bg-info">div3</div>
+      </div>
+      <div class="row">
+        <div class="col-5 bg-primary">div1</div>
+        <div class="col-5 bg-success">div2</div>
+        <div class="col-2 bg-info">div3</div>
+      </div>
+      <div class="row">
+        <div class="col-3 bg-primary">div1</div>
+        <div class="col-3 bg-success">div2</div>
+        <div class="col-2 bg-info">div3</div>
+      </div>
+      <div class="row">
+        <div class="col-5 bg-primary">div1</div>
+        <div class="col-5 bg-success">div2</div>
+        <div class="col-5 bg-info">div3</div>
+      </div>
+      <div class="row">
+        <div class="col bg-primary">div1</div>
+        <div class="col bg-success">div2</div>
+      </div>
+      <div class="row">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 bg-primary text-left">div1</div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 bg-success text-left">div2</div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 bg-info text-left">div3</div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 bg-danger text-left">div4</div>
+        <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 bg-primary text-left">div5</div>
+        <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 bg-success text-left">div6</div>
+      </div>
+      <div class="jumbotron">
+        <h1>Heading</h1>
+        <h1>Paragraph</h1>
+      </div>
+      <!-- <div class="row">
+        <div class="col-12"><img src="photo.jpg" width="300px" class="rounded float-left" alt="" /></div>
+        <div class="col-12"><img src="photo.jpg" width="300px" class="rounded float-right" alt="" /></div>
+      </div>
+      <div class="row">
+        <img src="photo.jpg" width="700px" class="rounded img-fluid" alt="" />
+      </div> -->
+      <table class="table table-borderless table-hover">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-success">
+            <td>Scott</td>
+            <td>Scott@gmail.com</td>
+            <td>9963696396</td>
+          </tr>
+          <tr>
+            <td>Scott</td>
+            <td>Scott@gmail.com</td>
+            <td>9963696396</td>
+          </tr>
+          <tr>
+            <td>Scott</td>
+            <td class="table-warning">Scott@gmail.com</td>
+            <td>9963696396</td>
+          </tr>
+          <tr>
+            <td>Scott</td>
+            <td>Scott@gmail.com</td>
+            <td>9963696396</td>
+          </tr>
+          <tr>
+            <td>Scott</td>
+            <td>Scott@gmail.com</td>
+            <td>9963696396</td>
+          </tr>
+          <tr>
+            <td>Scott</td>
+            <td>Scott@gmail.com</td>
+            <td>9963696396</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="alert alert-primary">
+        <button class="close" data-dismiss="alert">&times;</button>
+        Welcome to the website
+      </div>
+      <div>
+        <button class="btn btn-success">OK</button>
+        <button class="btn btn-danger">Cancel</button>
+        <br /><br />
+        <button class="btn btn-outline-success">OK</button>
+        <button class="btn btn-outline-danger">Cancel</button>
+        <br />
+        <button class="btn btn-outline-success btn-lg">OK</button>
+        <button class="btn btn-outline-danger">Cancel</button>
+        <button class="btn btn-outline-info btn-sm">Cancel</button>
+        <button class="btn btn-outline-secondary btn-block">Save and exit</button>
+        <br />
+        <div class="btn-group">
+          <button class="btn btn-outline-success">OK</button>
+          <button class="btn btn-outline-danger">Cancel</button>
+          <button class="btn btn-outline-info">Cancel</button>
+        </div>
+      </div>
+      <div>
+        <h1>
+          Heading 1
+          <span class="badge badge-primary">New</span>
+        </h1>
+        <h2>
+          Heading 2
+          <span class="badge badge-pill badge-primary">New</span>
+        </h2>
+        <h3>
+          Heading 3
+          <span class="badge badge-primary">New</span>
+        </h3>
+      </div>
+      <div class="progress mx-auto" style="width: 500px; height: 30px">
+        <div class="progress-bar bg-success progress-bar-striped" style="width: 70%">70%</div>
+      </div>
+      <div>
+        <ul class="pagination pagination-sm justify-content-center">
+          <li class="page-item">
+            <a href="#" class="page-link">&lt;</a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link">1</a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link">2</a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link">3</a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link">4</a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link">&gt;</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">Electronics</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">Mobiles</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">Apple</a>
+          </li>
+        </ul>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action">First item</a>
+        <a href="#" class="list-group-item list-group-item-action">Second item</a>
+        <a href="#" class="list-group-item list-group-item-action">Third item</a>
+        <a href="#" class="list-group-item list-group-item-action">Fourth item</a>
+      </div>
+      <br />
+      <div class="card-group">
+        <div class="card" style="width: 300px">
+          <div class="card-header bg-danger text-light">
+            <h2>Scott</h2>
+            <h4>
+              <small>Manager</small>
+            </h4>
+          </div>
+          <img class="card-img-top" src="photo.jpg" alt="" />
+          <div class="card-body">
+            <h4>DOB: 1.1.1990</h4>
+            <h4>DOJ: 1.1.2018</h4>
+            Other text here
+            <br />
+            <a href="#">See profile</a>
+          </div>
+          <div class="card-footer bg-info">footer</div>
+        </div>
+        <div class="card" style="width: 300px">
+          <div class="card-header bg-danger text-light">
+            <h2>Scott</h2>
+            <h4>
+              <small>Manager</small>
+            </h4>
+          </div>
+          <img class="card-img-top" src="photo.jpg" alt="" />
+          <div class="card-body">
+            <h4>DOB: 1.1.1990</h4>
+            <h4>DOJ: 1.1.2018</h4>
+            Other text here
+            <br />
+            <a href="#">See profile</a>
+          </div>
+          <div class="card-footer bg-info">footer</div>
+        </div>
+        <div class="card" style="width: 300px">
+          <div class="card-header bg-danger text-light">
+            <h2>Scott</h2>
+            <h4>
+              <small>Manager</small>
+            </h4>
+          </div>
+          <img class="card-img-top" src="photo.jpg" alt="" />
+          <div class="card-body">
+            <h4>DOB: 1.1.1990</h4>
+            <h4>DOJ: 1.1.2018</h4>
+            Other text here
+            <br />
+            <a href="#">See profile</a>
+          </div>
+          <div class="card-footer bg-info">footer</div>
+        </div>
+        <div class="card" style="width: 300px">
+          <div class="card-header bg-danger text-light">
+            <h2>Scott</h2>
+            <h4>
+              <small>Manager</small>
+            </h4>
+          </div>
+          <img class="card-img-top" src="photo.jpg" alt="" />
+          <div class="card-body">
+            <h4>DOB: 1.1.1990</h4>
+            <h4>DOJ: 1.1.2018</h4>
+            Other text here
+            <br />
+            <a href="#">See profile</a>
+          </div>
+          <div class="card-footer bg-info">footer</div>
+        </div>
+        <div class="card" style="width: 300px">
+          <div class="card-header bg-danger text-light">
+            <h2>Scott</h2>
+            <h4>
+              <small>Manager</small>
+            </h4>
+          </div>
+          <img class="card-img-top" src="photo.jpg" alt="" />
+          <div class="card-body">
+            <h4>DOB: 1.1.1990</h4>
+            <h4>DOJ: 1.1.2018</h4>
+            Other text here
+            <br />
+            <a href="#">See profile</a>
+          </div>
+          <div class="card-footer bg-info">footer</div>
+        </div>
+      </div>
+      <div>
+        <a href="#" title="Delete the selected records" data-toggle="tooltip">Delete</a>
+
+        <script>
+          $("[data-toggle='tooltip']").tooltip();
+        </script>
+      </div>
+      <div>
+        <button class="btn btn-success" data-toggle="collapse" data-target="#div1">India</button>
+        <div id="div1" class="collapse">
+          India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area; the most populous country
+          from June 2023 and from the time of its independence in 1947, the world's most populous democracy.
+        </div>
+      </div>
+
+      <div>
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a href="#div2" data-toggle="collapse">India</a>
+            </div>
+            <div id="div2" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area; the most populous
+                country from June 2023 and from the time of its independence in 1947, the world's most populous democracy.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a href="#div3" data-toggle="collapse">India</a>
+            </div>
+            <div id="div3" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area; the most populous
+                country from June 2023 and from the time of its independence in 1947, the world's most populous democracy.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a href="#div4" data-toggle="collapse">India</a>
+            </div>
+            <div id="div4" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area; the most populous
+                country from June 2023 and from the time of its independence in 1947, the world's most populous democracy.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
